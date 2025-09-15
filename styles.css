@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; }
+.site-header, .site-footer { padding: 16px 20px; background: #111; color: #fff; }
+.site-header { display: flex; align-items: center; justify-content: space-between; }
+.nav__link { color: #ddd; text-decoration: none; margin-left: 12px; }
+.nav__link.is-active { color: #fff; font-weight: 700; }
+
+.container { max-width: 980px; margin: 24px auto; padding: 0 16px; }
+.hero { background: #f7f7f7; border: 1px solid #eee; border-radius: 12px; padding: 24px; }
+.cta { display: flex; gap: 10px; margin-top: 12px; }
+.btn { padding: 10px 16px; border-radius: 10px; border: 1px solid #ccc; background: #fff; cursor: not-allowed; opacity: 0.5; }
+.btn-secondary { border-color: #bbb; }
+
+.grid { margin-top: 24px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.card { border: 1px solid #eee; border-radius: 12px; padding: 16px; background: #fff; }
+
+:root { color-scheme: light; } /* 다음 브랜치에서 다크모드 토글 예정 */
+
