@@ -1,5 +1,23 @@
 <!doctype html>
 <html lang="ko">
+<!-- ... </main> 바로 위에 추가되어야 함... -->
+
+    <!-- Custom Modal -->
+    <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+      <div class="modal__backdrop" data-close></div>
+      <div class="modal__panel" role="document">
+        <header class="modal__header">
+          <h3 id="modal-title">알림</h3>
+          <button class="modal__close" data-close aria-label="Close">×</button>
+        </header>
+        <div class="modal__body">
+          <p>이것은 커스텀 모달입니다. ESC 또는 바깥을 누르면 닫혀요.</p>
+        </div>
+        <footer class="modal__footer">
+          <button class="btn" data-close>확인</button>
+        </footer>
+      </div>
+    </div>
 <head>
   <meta charset="utf-8" />
   <title>MyApp - Main</title>
